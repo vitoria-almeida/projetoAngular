@@ -10,6 +10,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projetoAngular';
+  firstName!: string
+  contact!: number
+  email!: string
+  password!: string
 }
 
 // uma classe pode ser várias coisas no Angular, serviços, pipes(?) etc., porém nesse momento ela está sendo especificada como um componente

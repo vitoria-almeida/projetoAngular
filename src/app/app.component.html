@@ -5,12 +5,21 @@
 <main>   
     <form>
         <h2>Sign Up</h2>
-        <div><app-first-name></app-first-name></div>
-        <div id="app-contact"></div>
-        <div class="app-email"></div>
-        <div><app-password></app-password></div>
+        <div><app-first-name [(ngModel)]="firstName" name="name" ngDefaultControl></app-first-name></div>
+        <div id="app-contact" [(ngModel)]="contact" name="contact" ngDefaultControl></div>
+        <div class="app-email" [(ngModel)]="email" name="email" ngDefaultControl></div>
+        <div><app-password [(ngModel)]="password" name="password" ngDefaultControl></app-password></div>
         <div><a href="">login</a></div>
 
         <button type="submit">Sign Up</button>
     </form>
+
+    <section>
+        <div class="pNgModel">
+            <p><strong>Name:</strong> {{firstName}}</p>
+            <p><strong>Contact:</strong> {{contact}}</p>
+            <p><strong>Email:</strong> {{email}}</p>
+            <p><strong>Password:</strong> {{password}}</p>
+        </div>
+    </section>
 </main>

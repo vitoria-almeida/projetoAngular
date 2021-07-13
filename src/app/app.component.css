@@ -1,6 +1,5 @@
 main {
-    display: flex;
-    flex-direction: column;
+    display: flex;   
     justify-content: center;
     align-items: center; 
 }
@@ -40,6 +39,28 @@ button {
     font-size: 15px;
     padding: 5px 60px 5px 60px;
     cursor: pointer;
+}
+
+
+
+/* CARD COM VALORES DO INPUT */
+section {
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px;  
+    background-color: rgb(243, 241, 241);
+    position: relative;
+    right: 30px;
+     
+}
+
+section p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 

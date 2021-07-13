@@ -7,6 +7,7 @@ import { EmailComponent } from './email/email.component';
 import { PasswordComponent } from './password/password.component';
 import { FirstNameComponent } from './first-name/first-name.component';
 import { ContactComponent } from './contact/contact.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

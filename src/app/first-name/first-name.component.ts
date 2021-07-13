@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first-name.component.css']
 })
 export class FirstNameComponent implements OnInit {
-
   constructor() { }
-
   ngOnInit(): void {
   }
+
+  
 
 }
