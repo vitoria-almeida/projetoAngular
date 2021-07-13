@@ -8,6 +8,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 </p>
   
  <p>
-    <img width: "400" src="src/assets/imgReadMe/formularioPrint2.jpg"
+    <img width: "400" src="src/assets/imgReadMe/formularioPrint2.png"
 </p>
 
